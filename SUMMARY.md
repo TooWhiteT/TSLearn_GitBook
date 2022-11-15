@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [基础类型](README.md)
