@@ -30,7 +30,7 @@ x[4] = false; // 这样的报错 boolean不在(string | number)联合类型中
 
 上面是官方文档示例，下面实操发现并不是，在编译期间会检测
 
-```
+```typescript
 let tuple: [string, number]
 tuple = ["Hello", 98]
 // @ts-ignore  // 不加这个编译是不通过的
